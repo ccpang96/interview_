@@ -59,5 +59,11 @@
     <ClCompile Include="设计模式\Observer\Observer.cpp">
       <Filter>设计模式\观察者模式</Filter>
     </ClCompile>
+    <ClCompile Include="设计模式\Singleton\饿汉式.cpp">
+      <Filter>设计模式\单例模式</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\Singleton\局部静态变量式.cpp">
+      <Filter>设计模式\单例模式</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

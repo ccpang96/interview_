@@ -129,6 +129,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C++语言\main.cpp" />
+    <ClCompile Include="设计模式\Singleton\饿汉式.cpp" />
+    <ClCompile Include="设计模式\Singleton\局部静态变量式.cpp" />
     <ClCompile Include="设计模式\Observer\Observer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

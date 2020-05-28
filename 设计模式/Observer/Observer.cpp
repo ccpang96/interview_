@@ -77,43 +77,43 @@ public:
 
 
 
-int main() {
-
-	Subject sub1;
-	Observer one(1), two(2), three(3);
-	float val;
-
-	//1.将观察者注册到目标上
-	sub1.attach(&one);
-	sub1.attach(&two);
-	sub1.attach(&three);
-	
-	//2.设置目标的值
-	std::cout << "请设置目标的值：";
-	cin >> val;
-	std::cout << endl;
-	sub1.setVal(val);
-
-	//3.移除第二个观察者
-	std::cout << "移除第二个观察者" << endl;
-	sub1.detach(&two);		
-
-
-	//2.设置目标的值
-	std::cout << "请设置目标的值：" << std::endl;
-	cin >> val;
-	std::cout << endl;
-	sub1.setVal(val);
-
-	//
-	std::cout << "重新注册第二个观察者" << endl;
-	sub1.attach(&two);
-
-	std::cout << "请输入值：" << std::endl;
-	cin >> val;
-	sub1.setVal(val);
-
-
-	system("pause");
-	return 0;
-}
+//int main() {
+//
+//	Subject sub1;
+//	Observer one(1), two(2), three(3);
+//	float val;
+//
+//	//1.将观察者注册到目标上
+//	sub1.attach(&one);
+//	sub1.attach(&two);
+//	sub1.attach(&three);
+//	
+//	//2.设置目标的值
+//	std::cout << "请设置目标的值：";
+//	cin >> val;
+//	std::cout << endl;
+//	sub1.setVal(val);
+//
+//	//3.移除第二个观察者
+//	std::cout << "移除第二个观察者" << endl;
+//	sub1.detach(&two);		
+//
+//
+//	//2.设置目标的值
+//	std::cout << "请设置目标的值：" << std::endl;
+//	cin >> val;
+//	std::cout << endl;
+//	sub1.setVal(val);
+//
+//	//
+//	std::cout << "重新注册第二个观察者" << endl;
+//	sub1.attach(&two);
+//
+//	std::cout << "请输入值：" << std::endl;
+//	cin >> val;
+//	sub1.setVal(val);
+//
+//
+//	system("pause");
+//	return 0;
+//}
