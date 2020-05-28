@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="C++基础">
+      <UniqueIdentifier>{1ec87407-7634-436e-8d5b-99a9466e188b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据结构">
+      <UniqueIdentifier>{986cd926-8fb8-4c6f-b8f2-19900c8929f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="设计模式">
+      <UniqueIdentifier>{deec077e-79f7-4a04-817f-9c775a7798a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="设计模式\单例模式">
+      <UniqueIdentifier>{5a42fdf8-f914-401a-b358-5e9e8a0ec74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="设计模式\观察者模式">
+      <UniqueIdentifier>{268555bd-aabe-4b7b-9c31-ec9b638b38e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C++语言\const的用法.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+    <ClInclude Include="C++语言\explicit.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+    <ClInclude Include="C++语言\L_valueAndR_value.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+    <ClInclude Include="C++语言\newAndMalloc.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+    <ClInclude Include="C++语言\NULLAndnullptr.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+    <ClInclude Include="C++语言\shallocCopyAndDeepCopy.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+    <ClInclude Include="C++语言\sizeof类的大小.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+    <ClInclude Include="C++语言\volatile修饰符.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+    <ClInclude Include="C++语言\迭代器失效.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+    <ClInclude Include="C++语言\静态对象的构造.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+    <ClInclude Include="C++语言\强制类型转换.h">
+      <Filter>C++基础</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C++语言\main.cpp">
+      <Filter>C++基础</Filter>
+    </ClCompile>
+    <ClCompile Include="设计模式\Observer\Observer.cpp">
+      <Filter>设计模式\观察者模式</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
