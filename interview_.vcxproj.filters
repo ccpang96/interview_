@@ -16,6 +16,33 @@
     <Filter Include="设计模式\观察者模式">
       <UniqueIdentifier>{268555bd-aabe-4b7b-9c31-ec9b638b38e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="数据结构\字典树">
+      <UniqueIdentifier>{ca021d0e-16d5-40cd-afa4-9a350f2771d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="应用题">
+      <UniqueIdentifier>{74ff9b57-7af1-4160-840c-ad22c9ef2fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="操作系统">
+      <UniqueIdentifier>{5aa65ffb-6753-4a94-b08d-b97145a999a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="操作系统\1.LRU问题">
+      <UniqueIdentifier>{782aab1f-19fc-4ab8-8ac3-61bd314914be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="操作系统\2.生产者消费者问题">
+      <UniqueIdentifier>{52ad1215-cbd7-4ca1-9df4-c63dafa1d714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="操作系统\3.无锁队列问题">
+      <UniqueIdentifier>{a4aaa7f5-1c20-41eb-b21f-c9ed5344d6a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="操作系统\4.哲学家就餐问题">
+      <UniqueIdentifier>{f3ce622d-a92b-4a0a-9741-3474a5011e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="操作系统\5.多线程问题">
+      <UniqueIdentifier>{7ce5b4e9-685b-4b1c-9694-100e69cbe96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="操作系统\6.原子操作问题">
+      <UniqueIdentifier>{1c57e147-8c1f-496d-b1a3-e32eb1ec2bec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C++语言\const的用法.h">
@@ -51,6 +78,21 @@
     <ClInclude Include="C++语言\强制类型转换.h">
       <Filter>C++基础</Filter>
     </ClInclude>
+    <ClInclude Include="操作系统\生产者消费者问题\条件变量+互斥锁.h">
+      <Filter>操作系统\2.生产者消费者问题</Filter>
+    </ClInclude>
+    <ClInclude Include="操作系统\多线程问题\condition_variable.h">
+      <Filter>操作系统\5.多线程问题</Filter>
+    </ClInclude>
+    <ClInclude Include="操作系统\多线程问题\mutex.h">
+      <Filter>操作系统\5.多线程问题</Filter>
+    </ClInclude>
+    <ClInclude Include="操作系统\多线程问题\互斥锁+条件变量.h">
+      <Filter>操作系统\5.多线程问题</Filter>
+    </ClInclude>
+    <ClInclude Include="操作系统\原子操作\原子操作.h">
+      <Filter>操作系统\6.原子操作问题</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C++语言\main.cpp">
@@ -65,5 +107,31 @@
     <ClCompile Include="设计模式\Singleton\局部静态变量式.cpp">
       <Filter>设计模式\单例模式</Filter>
     </ClCompile>
+    <ClCompile Include="数据结构\tire.cpp">
+      <Filter>数据结构\字典树</Filter>
+    </ClCompile>
+    <ClCompile Include="应用题\topN问题.cpp">
+      <Filter>应用题</Filter>
+    </ClCompile>
+    <ClCompile Include="操作系统\LRU问题\lrucache.cpp">
+      <Filter>操作系统\1.LRU问题</Filter>
+    </ClCompile>
+    <ClCompile Include="操作系统\无锁队列问题\使用循环数组来实现无锁队列.cpp">
+      <Filter>操作系统\3.无锁队列问题</Filter>
+    </ClCompile>
+    <ClCompile Include="操作系统\无锁队列问题\用链表实现无锁队列.cpp">
+      <Filter>操作系统\3.无锁队列问题</Filter>
+    </ClCompile>
+    <ClCompile Include="操作系统\哲学家就餐问题\philosopher.c">
+      <Filter>操作系统\4.哲学家就餐问题</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="设计模式\README.md">
+      <Filter>设计模式</Filter>
+    </None>
+    <None Include="操作系统.md">
+      <Filter>操作系统</Filter>
+    </None>
   </ItemGroup>
 </Project>

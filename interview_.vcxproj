@@ -126,12 +126,27 @@
     <ClInclude Include="C++语言\强制类型转换.h" />
     <ClInclude Include="C++语言\迭代器失效.h" />
     <ClInclude Include="C++语言\静态对象的构造.h" />
+    <ClInclude Include="操作系统\原子操作\原子操作.h" />
+    <ClInclude Include="操作系统\多线程问题\condition_variable.h" />
+    <ClInclude Include="操作系统\多线程问题\mutex.h" />
+    <ClInclude Include="操作系统\多线程问题\互斥锁+条件变量.h" />
+    <ClInclude Include="操作系统\生产者消费者问题\条件变量+互斥锁.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C++语言\main.cpp" />
+    <ClCompile Include="应用题\topN问题.cpp" />
+    <ClCompile Include="操作系统\LRU问题\lrucache.cpp" />
+    <ClCompile Include="操作系统\哲学家就餐问题\philosopher.c" />
+    <ClCompile Include="操作系统\无锁队列问题\使用循环数组来实现无锁队列.cpp" />
+    <ClCompile Include="操作系统\无锁队列问题\用链表实现无锁队列.cpp" />
+    <ClCompile Include="数据结构\tire.cpp" />
     <ClCompile Include="设计模式\Singleton\饿汉式.cpp" />
     <ClCompile Include="设计模式\Singleton\局部静态变量式.cpp" />
     <ClCompile Include="设计模式\Observer\Observer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="操作系统.md" />
+    <None Include="设计模式\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

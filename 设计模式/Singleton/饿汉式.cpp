@@ -53,15 +53,15 @@ Singleton * Singleton::instance = new Singleton();
 
 
 
-int main() {
-	Singleton *p1 = Singleton::getInstance();
-	Singleton *p2 = Singleton::getInstance();
-	if (p1 == p2)
-		cout << "是同一个对象" << endl;
-	else 
-		cout << "不是同一个对象" << endl;
-
-	Singleton::deleteInstance();
-	system("pause");
-	return 0;
-}
+//int main() {
+//	Singleton *p1 = Singleton::getInstance();
+//	Singleton *p2 = Singleton::getInstance();
+//	if (p1 == p2)
+//		cout << "是同一个对象" << endl;
+//	else 
+//		cout << "不是同一个对象" << endl;
+//
+//	Singleton::deleteInstance();
+//	system("pause");
+//	return 0;
+//}
