@@ -24,11 +24,12 @@ private:
 	Singleton operator=(const Singleton&) = delete;		//禁用拷贝赋值运算符
 
 public:
-	static Singleton& getInstance() {
-		static Singleton instance;
+	static Singleton& getInstance() {		
+		static Singleton instance;				//局部静态变量只会被执行一次初始化
 		return instance;
 	}
 };
+
 
 
 //int main() {

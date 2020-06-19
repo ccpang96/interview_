@@ -141,11 +141,10 @@
     <ClCompile Include="操作系统\无锁队列问题\用链表实现无锁队列.cpp" />
     <ClCompile Include="数据结构\tire.cpp" />
     <ClCompile Include="设计模式\Singleton\饿汉式.cpp" />
-    <ClCompile Include="设计模式\Singleton\局部静态变量式.cpp" />
+    <ClCompile Include="设计模式\Singleton\局部静态变量实现懒汉.cpp" />
     <ClCompile Include="设计模式\Observer\Observer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="操作系统.md" />
     <None Include="设计模式\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

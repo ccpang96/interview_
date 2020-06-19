@@ -28,10 +28,11 @@ using namespace std;
 class Singleton {
 public:
 	//获取实例
-	static Singleton* getInstance() {
+	static Singleton* getInstance() {  //无论哪个线程调用getInstance，只不过是返回一个对象的指针而已
 		return instance;
 	}
 
+	//删除实例
 	static void deleteInstance() {
 		if (instance != nullptr) {
 			delete instance;
@@ -48,6 +49,8 @@ private:
 	static Singleton *instance;
 };
 
+
+
 //程序一运行就初始化创建实例
 Singleton * Singleton::instance = new Singleton();
 
@@ -58,7 +61,7 @@ Singleton * Singleton::instance = new Singleton();
 //	Singleton *p2 = Singleton::getInstance();
 //	if (p1 == p2)
 //		cout << "是同一个对象" << endl;
-//	else 
+//	else
 //		cout << "不是同一个对象" << endl;
 //
 //	Singleton::deleteInstance();

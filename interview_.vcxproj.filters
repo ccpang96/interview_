@@ -104,9 +104,6 @@
     <ClCompile Include="设计模式\Singleton\饿汉式.cpp">
       <Filter>设计模式\单例模式</Filter>
     </ClCompile>
-    <ClCompile Include="设计模式\Singleton\局部静态变量式.cpp">
-      <Filter>设计模式\单例模式</Filter>
-    </ClCompile>
     <ClCompile Include="数据结构\tire.cpp">
       <Filter>数据结构\字典树</Filter>
     </ClCompile>
@@ -125,13 +122,13 @@
     <ClCompile Include="操作系统\哲学家就餐问题\philosopher.c">
       <Filter>操作系统\4.哲学家就餐问题</Filter>
     </ClCompile>
+    <ClCompile Include="设计模式\Singleton\局部静态变量实现懒汉.cpp">
+      <Filter>设计模式\单例模式</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="设计模式\README.md">
       <Filter>设计模式</Filter>
-    </None>
-    <None Include="操作系统.md">
-      <Filter>操作系统</Filter>
     </None>
   </ItemGroup>
 </Project>
